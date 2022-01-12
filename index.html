@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A simple website interface to all my links!"
+    />
+    <!-- Simple Css (Add on when learning CSS)-->
+    <style>
+      .Headers {
+        font-weight: bold;
+        font-style: italic;
+        color: burlywood;
+        text-align: center;
+      }
+      .HeaderDescription {
+        font-weight: bold;
+        color: coral;
+        text-align: center;
+        text-decoration: darkgoldenrod;
+      }
+      button {
+        border-radius: 50px;
+        size: 100px;
+        border: black;
+        display: inline-block;
+        margin-right: 50px;
+        align-items: center;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50px;
+      }
+      .ButtonLinks {
+        text-decoration: none;
+      }
+      div {
+        text-align: center;
+      }
+      .SeperatingTitles {
+        text-align: center;
+        color: grey;
+        text-decoration: black underline;
+      }
+    </style>
+    <title>Bineuro Hub</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="Headers">Dynamic Bineuro's Links</h1>
+      <p class="HeaderDescription">
+        All the most used links and personal links
+      </p>
+      <hr />
+    </header>
+    <main>
+      <!-- Div with my personal links-->
+      <div>
+        <h1 class="SeperatingTitles">Personal Links</h1>
+        <!-- Update Twitch name and link-->
+        <a
+          class="ButtonLinks"
+          href="https://www.twitch.tv/dinamicbineuro"
+          target="_blank"
+        >
+          <!-- Twitch button -->
+          <button style="color: indigo">
+            <img src="Icons/Twitch.png" alt="Twitch" />
+          </button>
+        </a>
+
+        <!-- Youtube Link-->
+        <a
+          class="ButtonLinks"
+          href="https://www.youtube.com/channel/UCXIKU9kHYKOm27ZqwLc2n7w"
+          target="_blank"
+        >
+          <!-- Youtube Button -->
+          <button style="color: red">
+            <img src="Icons/Youtube.png" alt="Youtube" />
+          </button>
+        </a>
+
+        <!-- Github Link-->
+        <a
+          class="ButtonLinks"
+          href="https://github.com/AhmedBineuro"
+          target="_blank"
+        >
+          <!--Github button-->
+          <button style="color: white">
+            <img src="Icons/Github.png" alt="Github" />
+          </button>
+        </a>
+      </div>
+      <div>
+        <h1 class="SeperatingTitles">School Links</h1>
+        <!-- Canvas Link-->
+        <a
+          class="ButtonLinks"
+          href="https://canvas.sfu.ca"
+          target="_blank"
+        >
+          <!-- Canvas button -->
+          <button>
+            <img src="Icons/Canvas.png" alt="Twitch" />
+          </button>
+        </a>
+
+        <!-- SFU Mail Link-->
+        <a
+          class="ButtonLinks"
+          href="https://mail.sfu.ca"
+          target="_blank"
+        >
+          <!-- SFU Mail Button -->
+          <button>
+            <img src="Icons/Mail.png" alt="Youtube" />
+          </button>
+        </a>
+
+        <!-- GO SFU Link-->
+        <a
+          class="ButtonLinks"
+          href="https://go.sfu.ca"
+          target="_blank"
+        >
+          <!--GO SFU button-->
+          <button>
+            <img src="Icons/Go_SFU.png" alt="Github" />
+          </button>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
