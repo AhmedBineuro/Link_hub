@@ -1,0 +1,60 @@
+.Headers {
+  font-weight: bold;
+  font-style: italic;
+  color: burlywood;
+  text-align: center;
+}
+.HeaderDescription {
+  font-weight: bold;
+  color: coral;
+  text-align: center;
+  text-decoration: darkgoldenrod;
+}
+button {
+  border-radius: 50px;
+  size: 100px;
+  border: black;
+  display: inline-block;
+  text-align: center;
+  margin-right: 50px;
+  align-items: center;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.ButtonLinks {
+  text-decoration: none;
+}
+div {
+  text-align: center;
+}
+.SeperatingTitles {
+  text-align: center;
+  color: black;
+  text-decoration: black underline;
+}
+.FooterContent {
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+}
+hr {
+  text-shadow: none;
+  color: black;
+  opacity: 90%;
+  border-bottom: black;
+  width: 65%;
+}
+body {
+  background-color: mediumpurple;
+}
+header {
+}
+main {
+  background-color: lightsalmon;
+}
+footer {
+  background-color: salmon;
+}

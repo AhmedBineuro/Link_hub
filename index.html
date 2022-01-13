@@ -7,61 +7,10 @@
       name="description"
       content="A simple website interface to all my links!"
     />
-    <!-- Simple Css (Add on when learning CSS)-->
-    <style>
-      .Headers {
-        font-weight: bold;
-        font-style: italic;
-        color: burlywood;
-        text-align: center;
-      }
-      .HeaderDescription {
-        font-weight: bold;
-        color: coral;
-        text-align: center;
-        text-decoration: darkgoldenrod;
-      }
-      button {
-        border-radius: 50px;
-        size: 100px;
-        border: black;
-        display: inline-block;
-        text-align: center;
-        margin-right: 50px;
-        align-items: center;
-      }
-      img {
-        width: 100px;
-        height: 100px;
-        border-radius: 50px;
-      }
-      .ButtonLinks {
-        text-decoration: none;
-      }
-      div {
-        text-align: center;
-      }
-      .SeperatingTitles {
-        text-align: center;
-        color: black;
-        text-decoration: black underline;
-      }
-        .FooterContent{
-          font-size: small;
-          font-style: italic;
-          text-align: center;
-      }
-      hr{
-        text-shadow: none;
-        color: black;
-        opacity: 90%;
-        border-bottom: black;
-        width: 65%;
-      }
-    </style>
+    <link rel="stylesheet" href="pallete.css">
     <title>Bineuro Hub</title>
   </head>
-  <body style="background-color: mediumpurple;">
+  <body>
     <header>
       <h1 class="Headers">Dynamic Bineuro's Links</h1>
       <p class="HeaderDescription">
@@ -69,7 +18,7 @@
       </p>
       <hr />
     </header>
-    <main style="background-color:lightsalmon;">
+    <main>
       <!-- Div with my personal links-->
       <div>
         <h1 class="SeperatingTitles">Personal Links</h1>
@@ -80,7 +29,7 @@
           target="_blank"
         >
           <!-- Twitch button -->
-          <button style="color: indigo">
+          <button>
             <img src="Icons/Twitch.png" alt="Twitch" />
           </button>
         </a>
@@ -92,7 +41,7 @@
           target="_blank"
         >
           <!-- Youtube Button -->
-          <button style="color: red">
+          <button>
             <img src="Icons/Youtube.png" alt="Youtube" />
           </button>
         </a>
@@ -104,7 +53,7 @@
           target="_blank"
         >
           <!--Github button-->
-          <button style="color: white">
+          <button>
             <img src="Icons/Github.png" alt="Github" />
           </button>
         </a>
@@ -153,7 +102,7 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/DWcJFNfaw9c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>  
     </main>
-    <footer style="background-color: salmon;">
+    <footer>
       <p class="FooterContent">
         This website is a simple exercise to learn HTML, CSS and JS so if it feels like this is very janky just know it is still work in progress!
       </p>
