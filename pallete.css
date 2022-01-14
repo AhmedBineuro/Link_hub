@@ -1,14 +1,15 @@
+/*This is how you comment*/
 .Headers {
   font-weight: bold;
   font-style: italic;
   color: burlywood;
   text-align: center;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in;
 }
-.HeaderDescription {
-  font-weight: bold;
-  color: coral;
-  text-align: center;
-  text-decoration: darkgoldenrod;
+.Headers:hover {
+  color: crimson;
 }
 button {
   border-radius: 50px;
@@ -48,7 +49,7 @@ hr {
   width: 65%;
 }
 body {
-  background-color: mediumpurple;
+  background: mediumpurple;
 }
 header {
 }
