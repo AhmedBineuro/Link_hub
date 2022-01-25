@@ -11,12 +11,12 @@
 .Headers:hover {
   color: crimson;
 }
-button {
-  border-radius: 50px;
+.CircleButtons{
+  border-radius: 50%;
   size: 100px;
   border: black;
   display: inline-block;
-  text-align: center;
+  text-align:center;
   margin-right: 50px;
   align-items: center;
 }
