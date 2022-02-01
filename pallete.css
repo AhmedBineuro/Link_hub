@@ -9,7 +9,7 @@
   transition-timing-function: ease-in;
 }
 .Headers:hover {
-  color: crimson;
+  color: blue;
 }
 .CircleButtons{
   border-radius: 50%;
