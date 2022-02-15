@@ -12,24 +12,25 @@
   color: blue;
 }
 .CircleButtons{
+  margin-right: 50%;
   border-radius: 50%;
   size: 100px;
-  border: black;
-  display: inline-block;
-  text-align:center;
-  margin-right: 50px;
-  align-items: center;
+  border: none;
 }
 img {
   width: 100px;
   height: 100px;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 .ButtonLinks {
   text-decoration: none;
+  margin: 2%;
 }
 .CenterDivs {
-  text-align: center;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .SeperatingTitles {
   text-align: center;
