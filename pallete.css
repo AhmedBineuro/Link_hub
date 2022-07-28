@@ -54,6 +54,7 @@ body {
 }
 header {
   position:fixed;
+  background-color: mediumpurple;
 }
 main {
   background-color: lightsalmon;
