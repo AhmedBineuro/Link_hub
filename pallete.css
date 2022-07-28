@@ -53,6 +53,7 @@ body {
   background: mediumpurple;
 }
 header {
+  position:fixed;
 }
 main {
   background-color: lightsalmon;
