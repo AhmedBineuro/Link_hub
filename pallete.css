@@ -54,7 +54,8 @@ body {
 }
 header {
   position:fixed;
-  background-color: mediumpurple;
+  background-color: black;
+  opacity: 60%;
 }
 main {
   background-color: lightsalmon;
