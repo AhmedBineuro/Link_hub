@@ -2,14 +2,14 @@
 .Headers {
   font-weight: bold;
   font-style: italic;
-  color: burlywood;
+  color: white;
   text-align: center;
   transition-property: color;
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
 }
 .Headers:hover {
-  color: blue;
+  color: burlywood;
 }
 .CircleButtons{
   margin-right: 50%;
