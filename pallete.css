@@ -42,8 +42,10 @@ img {
   font-style: italic;
   text-align: center;
 }
-.Clock{
-  opacity: 100%;
+.HeaderPanel
+{
+  background-color: black;
+  opacity: 60%;
 }
 hr {
   text-shadow: none;
@@ -57,8 +59,6 @@ body {
 }
 header {
   position:fixed;
-  background-color: black;
-  opacity: 60%;
 }
 main {
   background-color: lightsalmon;
