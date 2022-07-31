@@ -42,6 +42,9 @@ img {
   font-style: italic;
   text-align: center;
 }
+.Clock{
+  opacity: 100%;
+}
 hr {
   text-shadow: none;
   color: black;
