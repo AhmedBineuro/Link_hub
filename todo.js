@@ -82,6 +82,7 @@ function removeEntry(index) {
     if (index < list.length && index >= 0)
         list.splice(index, 1);
     reconstructList();
+    localStorage.setItem("counter", counter);
 }
 function clearLocal() {
     localStorage.clear();
