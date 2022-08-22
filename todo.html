@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List</title>
+    <script src="/todo.js">
+    </script>
+    <link rel="stylesheet" type="text/css" href="/todo.css">
+</head>
+
+<body onload="setupList()">
+    <span class="TitleSpan">
+        <h1 class="Title">To Do</h1>
+    </span>
+    <div class="InputHUD">
+        <input type="text" class="Entry" id="Entry" autocomplete="off">
+        <span class="Buttons">
+            <button onclick="addEntry()">
+                Submit Entry
+            </button>
+            <button onclick="update()">
+                Update list
+            </button>
+            <button class="Clear" onclick="clearLocal()">
+                Clear
+            </button>
+        </span>
+    </div>
+    <hr>
+    <div>
+        <ul id="list" class="List">
+
+        </ul>
+    </div>
+
+</body>

@@ -2,14 +2,14 @@
 .Headers {
   font-weight: bold;
   font-style: italic;
-  color: burlywood;
+  color: white;
   text-align: center;
   transition-property: color;
   transition-duration: 0.5s;
   transition-timing-function: ease-in;
 }
 .Headers:hover {
-  color: blue;
+  color: burlywood;
 }
 .CircleButtons{
   margin-right: 50%;
@@ -42,6 +42,10 @@ img {
   font-style: italic;
   text-align: center;
 }
+.HeaderPanel
+{
+  background-color: rgba(0,0,0,0.6);
+}
 hr {
   text-shadow: none;
   color: black;
@@ -52,6 +56,12 @@ hr {
 body {
   background: mediumpurple;
 }
+<<<<<<< HEAD
+=======
+header {
+  position:fixed;
+}
+>>>>>>> eba2e96f1c872978ca4fa6b0f73b599855b59fa9
 main {
   background-color: lightsalmon;
 }
