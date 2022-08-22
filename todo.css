@@ -7,7 +7,8 @@
 .TitleSpan {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .InputHUD {
@@ -24,6 +25,16 @@
     border: none;
     font-family: sans-serif;
     font-weight: bold;
+}
+
+.Delete {
+    background-color: rgb(150, 150, 150);
+    order: -1;
+    width: 25px;
+    height: 23px;
+    color: rgb(180, 0, 0);
+    font-size: 20px;
+    margin-right: 2%;
 }
 
 .Buttons {
@@ -51,7 +62,6 @@
 
 .Check {
     order: -1;
-    margin-right: 2%;
     width: 25px;
     height: 25px;
 }

@@ -8,10 +8,11 @@
     <link rel="stylesheet" type="text/css" href="/todo.css">
 </head>
 
-<body onload="setupList()">
-    <a href="/index.html">Main page</a>
+<body onload="setupList(); updateCounter()">
     <span class="TitleSpan">
+        <a href="/index.html">Main page</a>
         <h1 class="Title">To Do</h1>
+        <h5 id="taskCounter"></h5>
     </span>
     <div class="InputHUD">
         <input type="text" class="Entry" id="Entry" autocomplete="off">
