@@ -111,7 +111,7 @@ function setupList() {
 }
 function updateCounter() {
     if (counter > 0) {
-        if (counter === 1)
+        if (counter == 1)
             document.getElementById("taskCounter").innerHTML =
                 "You have finished " + counter + " task!";
         else
