@@ -111,8 +111,12 @@ function setupList() {
 }
 function updateCounter() {
     if (counter > 0) {
-        document.getElementById("taskCounter").innerHTML =
-            "You have finished " + counter + " tasks!";
+        if (counter === 1)
+            document.getElementById("taskCounter").innerHTML =
+                "You have finished " + counter + " task!";
+        else
+            document.getElementById("taskCounter").innerHTML =
+                "You have finished " + counter + " tasks!";
     }
     else {
         document.getElementById("taskCounter").innerHTML = "";
