@@ -78,12 +78,14 @@ function reconstructList() {
             + i + "\" onclick=\"removeEntry(this.id)\">X</button></li>";
     }
 }
+//Removes a specific entry
 function removeEntry(index) {
     if (index < list.length && index >= 0)
         list.splice(index, 1);
     reconstructList();
     localStorage.setItem("list", list);
 }
+//Clears local storage and resets the task counter
 function clearLocal() {
     localStorage.clear();
     list.splice(0, list.length);
