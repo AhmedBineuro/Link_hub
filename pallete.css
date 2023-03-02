@@ -10,7 +10,7 @@
 }
 
 .Headers:hover {
-  color: burlywood;
+  color: mediumpurple;
 }
 
 .CircleButtons {
@@ -67,11 +67,11 @@ body {
 }
 
 main {
-  background-color: lightsalmon;
+  background-color: rgb(105, 79, 155);
 }
 
 footer {
-  background-color: salmon;
+  background-color: rgb(105, 79, 155);
 }
 
 .UtilityDiv {
